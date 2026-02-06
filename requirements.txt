@@ -10,6 +10,7 @@ scikit-learn==1.4.0
 matplotlib
 seaborn
 nbformat
+nbclient
 geoip2==5.2.0
 invoke
 uv
