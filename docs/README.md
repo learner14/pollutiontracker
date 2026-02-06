@@ -3,7 +3,7 @@
 
 {% include air-quality.html %}
 
-![Forecast](./img/pm25_forecast.png)
+![Forecast](./air-quality/img/pm25_forecast.png)
 
 
 # Model Performance Monitoring
