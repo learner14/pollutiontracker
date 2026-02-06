@@ -10,4 +10,4 @@
 
 1-Day: Predictions vs Outcomes
 
-![Hindcast](./img/pm25_hindcast_1day.png)
+![Hindcast](./air-quality/img/pm25_hindcast_1day.png)
