@@ -33,7 +33,7 @@ jobs:
         run: |
           cd notebooks
           jupyter execute feature_pipeline.ipynb
-          jupyter execute notebooks/batch_inference.ipynb
+          jupyter execute batch_inference.ipynb
       - name: github pages publish
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
