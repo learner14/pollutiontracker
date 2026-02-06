@@ -1,9 +1,13 @@
-## ML Systems Dashboard
+# Air Quality Dashboard
 
 
-The example ML Systems are:
+{% include air-quality.html %}
+
+![Forecast](./img/pm25_forecast.png)
 
 
-| Dynamic Data  | Prediction Problem | User Interface  |  Monitoring |
-| ------------- |:-------------:| ------------:| ------------:|
-| aqicn.org and open-meteo.com | Air Quality Forecasting | [Github Pages](./air-quality) | [Hindcasts](./air-quality) |
+# Model Performance Monitoring
+
+1-Day: Predictions vs Outcomes
+
+![Hindcast](./img/pm25_hindcast_1day.png)

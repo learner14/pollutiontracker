@@ -8,6 +8,6 @@
 
 # Model Performance Monitoring
 
-1-Day Hindcast: Predictions vs Outcomes
+1-Day: Predictions vs Outcomes
 
 ![Hindcast](./img/pm25_hindcast_1day.png)
