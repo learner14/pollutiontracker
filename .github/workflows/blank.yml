@@ -32,7 +32,7 @@ jobs:
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
         run: |
           cd notebooks
-          jupyter execute notebooks/feature_pipeline.ipynb
+          jupyter execute feature_pipeline.ipynb
           jupyter execute notebooks/batch_inference.ipynb
       - name: github pages publish
         uses: stefanzweifel/git-auto-commit-action@v5
