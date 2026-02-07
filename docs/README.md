@@ -25,7 +25,3 @@ The system follows a feature store based architecture:
 3. **Training Pipeline:** Trains XGBoost model using historical features
 4. **Inference Pipeline:** Generates 7-day forecasts using weather forecast data
 5. **Dashboard:** Displays predictions and historical trends
-
-| Dynamic Data  | Prediction Problem | User Interface  |  Monitoring |
-| ------------- |:-------------:| ------------:| ------------:|
-| aqicn.org and open-meteo.com | Air Quality Forecasting | [Github Pages](./air-quality) | [Hindcasts](./air-quality) |
