@@ -1,4 +1,4 @@
-# Air Quality Dashboard
+# Air Quality Dashboard For Greensboro, NC
 
 Air quality forecasting service that predicts PM 2.5 (particulate matter) levels for the next 7 days. It gets updated once every day.
 Regression model is trained on historical air quality and weather data and is monitoted against predicted and real data.
