@@ -20,7 +20,7 @@ Predictions vs Outcomes
 ## Architecture
 
 The system follows a feature store based architecture:
-1. **Feature backfill Pipeline:** Loads historical air quality and weather data
+1. **Feature history Pipeline:** Loads historical air quality and weather data
 2. **Feature Pipeline:** Computes and stores features in the feature store
 3. **Training Pipeline:** Trains XGBoost model using historical features
 4. **Inference Pipeline:** Generates 7-day forecasts using weather forecast data
