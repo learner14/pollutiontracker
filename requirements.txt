@@ -3,7 +3,7 @@ papermill
 pydantic-settings>=2.6.1
 geopy==2.4.1
 openmeteo-requests
-requests-cache==1.2.0
+requests-cache>=1.2.1
 retry-requests==2.0.0
 xgboost>=2.1.0
 scikit-learn==1.4.0
