@@ -17,10 +17,10 @@ jobs:
 
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: setup python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: 'pip'
@@ -37,7 +37,7 @@ jobs:
           jupyter execute feature_pipeline.ipynb
           jupyter execute batch_inference.ipynb
       - name: github pages publish
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Air Quality Dashboard published"
           commit_options: '--no-verify --signoff'
