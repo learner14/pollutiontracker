@@ -11,6 +11,7 @@ matplotlib
 seaborn
 nbformat
 nbclient
+ipykernel
 geoip2==5.2.0
 invoke
 uv
